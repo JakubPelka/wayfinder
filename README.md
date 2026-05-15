@@ -26,7 +26,6 @@ The column `Last visible update` refers to the public `Updated` date visible on 
 | Repository | Short description | Status | Last visible update | Notes / next step |
 |---|---|---|---|---|
 | [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) | Object counting in video recordings using YOLO; zones, events, alerts, snapshots, heatmaps, and result export. | ACTIVE / EXPERIMENT | 2026-05-13 | High cleanup priority: backups, AI models, generated outputs, repository structure, README, and release policy. |
-| [MergeExcelFiles](https://github.com/JakubPelka/MergeExcelFiles) | Tool for merging multiple Excel files with tree / Artportalen-related data into one file. | MAINTAINED / TEMP PUBLIC | 2026-05-13 | Clean up README, sample data strategy, and decide how public this repository should remain. |
 | [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) | Enriching Artportalen / AGOL-derived records with protection-status information and additional columns. | TEMP PUBLIC / PRIVATE? | 2026-05-13 | Sensitive topic. Keep documentation careful: no real data, no tokens, no endpoints, no unnecessary operational context. |
 | [hajk-gesture-demo](https://github.com/JakubPelka/hajk-gesture-demo) | Demo for controlling a Hajk / OpenLayers map with hand gestures using MediaPipe and OpenCV. | EXPERIMENT / SHOWCASE | 2026-05-08 | Good showcase candidate. Add GIF/video, gesture list, architecture notes, and known limitations. |
 | [Sculptor_QGIS](https://github.com/JakubPelka/Sculptor_QGIS) | Experiment with terrain modelling / sculpting in QGIS, inspired by Blender-style sculpting workflows. | EXPERIMENT | 2026-05-07 | Clean up MVP versions, ZIPs, plugin structure, and clearly label it as experimental. |
@@ -77,6 +76,13 @@ These repositories have reached a useful public milestone. They are not abandone
   </thead>
   <tbody>
     <tr>
+      <td bgcolor="#edf7ed"><a href="https://github.com/JakubPelka/MergeExcelFiles">MergeExcelFiles</a></td>
+      <td bgcolor="#edf7ed">Small Tkinter/Python tool for merging multiple Excel files with the same structure into one combined workbook, with optional CSV export. Originally used for tree-related Artportalen-style Excel data, but potentially reusable for other similarly structured Excel files.</td>
+      <td bgcolor="#edf7ed"><strong>MAINTAINED / PAUSED</strong></td>
+      <td bgcolor="#edf7ed">2026-05-15</td>
+      <td bgcolor="#edf7ed">Release <code>v0.1.0</code> published. Repository cleaned and structured with English README, <code>src/</code>, <code>run_gui.py</code>, <code>requirements.txt</code>, <code>.gitignore</code>, <code>.gitattributes</code>, and MIT LICENSE. No active development planned; return only for bug fixes, packaging, or if the tool should become more generic.</td>
+    </tr>
+    <tr>
       <td bgcolor="#edf7ed"><a href="https://github.com/JakubPelka/ROI_raster_histogram_QGIS">ROI_raster_histogram_QGIS</a></td>
       <td bgcolor="#edf7ed">QGIS plugin for calculating raster class statistics inside ROI polygons, with tables, charts, HTML export, and optional percentage fields written back to the ROI layer.</td>
       <td bgcolor="#edf7ed"><strong>MAINTAINED / PAUSED</strong></td>
@@ -101,7 +107,6 @@ These repositories have reached a useful public milestone. They are not abandone
 4. [ComputerVisionCounter_Images](https://github.com/JakubPelka/ComputerVisionCounter_Images) — product structure, models outside repo, output handling, and user README.
 5. [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) — cautious documentation, safe test data, and clear dev/prod split.
 6. [LaczTabeleNietoperzy](https://github.com/JakubPelka/LaczTabeleNietoperzy) / [FixaDataAutoboxar](https://github.com/JakubPelka/FixaDataAutoboxar) — privacy, neutral README wording, and no sensitive data.
-7. [MergeExcelFiles](https://github.com/JakubPelka/MergeExcelFiles) — README, sample data approach, and public/private decision.
 
 ## Development priority
 
@@ -115,6 +120,7 @@ These repositories have reached a useful public milestone. They are not abandone
 
 - [ROI_raster_histogram_QGIS](https://github.com/JakubPelka/ROI_raster_histogram_QGIS) — first public release completed: `v0.1.0`.
 - [Exif_lat_lon](https://github.com/JakubPelka/Exif_lat_lon) — first public release completed: `v0.1.0`.
+- [MergeExcelFiles](https://github.com/JakubPelka/MergeExcelFiles) — first cleaned release completed: `v0.1.0`.
 
 ## Repository work rules
 
