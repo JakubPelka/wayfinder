@@ -25,7 +25,7 @@ Pole „ostatnia widoczna aktualizacja” oznacza datę `Updated` widoczną na p
 |---|---|---|---|---|
 | [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) | Liczenie obiektów w nagraniach wideo z użyciem YOLO; strefy, zdarzenia, alerty i eksport wyników. | ACTIVE / EXPERIMENT | 2026-05-13 | Wysoki priorytet sprzątania: backupy, modele AI, outputy, struktura, README, release policy. |
 | [MergeExcelFiles](https://github.com/JakubPelka/MergeExcelFiles) | Łączenie kilku plików Excel z danymi o drzewach / Artportalen w jeden plik. | MAINTAINED / TEMP PUBLIC | 2026-05-13 | Uporządkować README, przykładowe dane i zakres publiczności. |
-| [ROI_raster_histogram_QGIS](https://github.com/JakubPelka/ROI_raster_histogram_QGIS) | Plugin / narzędzie QGIS do statystyk klas rastra w obrębie polygonów ROI. | ACTIVE / MAINTAINED | 2026-05-13 | Dobry kandydat na wzorcowe publiczne repo GIS. Dodać release, screenshoty i sample data. |
+| [ROI_raster_histogram_QGIS](https://github.com/JakubPelka/ROI_raster_histogram_QGIS) | Plugin QGIS do obliczania statystyk klas rastra w obrębie polygonów ROI, z tabelami, wykresami, eksportem HTML i opcjonalnym zapisem procentów do warstwy ROI. | MAINTAINED / PAUSED | 2026-05-15 | Release `v0.1.0` opublikowany. Plugin działa i instaluje się z przygotowanej paczki ZIP. Repo uporządkowane jako publiczne repo GIS; wracać tylko przy błędach, poprawkach UI, nowych potrzebach eksportu albo dalszym refaktorze. |
 | [Exif_lat_lon](https://github.com/JakubPelka/Exif_lat_lon) | Odczyt współrzędnych GPS z metadanych zdjęć i eksport do CSV oraz GeoJSON. | MAINTAINED / PAUSED | 2026-05-15 | Release `v0.1.0` opublikowany. Repo uporządkowane i przetestowane. Brak aktywnych planów dalszego rozwoju; wracać tylko przy błędach, nowych formatach wejściowych albo potrzebie pakietowania. |
 | [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) | Uzupełnianie danych z Artportalen / AGOL o informacje o statusie ochrony i dodatkowe kolumny. | TEMP PUBLIC / PRIVATE? | 2026-05-13 | Temat wrażliwy. Dokumentacja ostrożna, bez realnych danych, tokenów, endpointów i nadmiarowego kontekstu. |
 | [hajk-gesture-demo](https://github.com/JakubPelka/hajk-gesture-demo) | Demo sterowania mapą Hajk / OpenLayers gestami dłoni z użyciem MediaPipe i OpenCV. | EXPERIMENT / SHOWCASE | 2026-05-08 | Dobre repo pokazowe. Dodać GIF/video, listę gestów, architekturę i known limitations. |
@@ -47,16 +47,14 @@ Pole „ostatnia widoczna aktualizacja” oznacza datę `Updated` widoczną na p
 4. ComputerVisionCounter_Images — struktura produktu, modele poza repo.
 5. Artportalen_med_data — ostrożna dokumentacja i dane testowe.
 6. LaczTabeleNietoperzy / FixaDataAutoboxar — prywatność danych, neutralne README.
-7. ROI_raster_histogram_QGIS — dopracowanie jako wzorcowe publiczne repo GIS.
 
 ## Priorytet rozwoju
 
-1. ROI_raster_histogram_QGIS — szybki publiczny sukces i dobry plugin GIS.
-2. ComputerVisionCounter_Images — potencjał produktowy i portfolio.
-3. hajk-gesture-demo — efektowne demo AI + GIS.
-4. Artportalen_med_data — duża wartość robocza, ale ostrożnie z publicznością.
-5. ComputerVisionCounter_video — duży potencjał po cleanupie.
-6. BlenderDigitalTwin — największy potencjał długoterminowy, ale wymaga dyscypliny architektury.
+1. ComputerVisionCounter_Images — potencjał produktowy i portfolio.
+2. hajk-gesture-demo — efektowne demo AI + GIS.
+3. Artportalen_med_data — duża wartość robocza, ale ostrożnie z publicznością.
+4. ComputerVisionCounter_video — duży potencjał po cleanupie.
+5. BlenderDigitalTwin — największy potencjał długoterminowy, ale wymaga dyscypliny architektury.
 
 ## Standard pracy z repo
 
