@@ -39,6 +39,28 @@ The column `Last visible update` refers to the public `Updated` date visible on 
 | [FixaDataAutoboxar](https://github.com/JakubPelka/FixaDataAutoboxar) | Automatic extraction of metadata from WAV files and export to a readable Excel sheet. | MAINTAINED / TEMP PUBLIC | 2025-08-29 | Practical tool, but related to recording-derived data. Be careful with examples and public wording. |
 | [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) | Blender Digital Twin add-on / concept: reconstructing and visualising scenes from GIS data. | ACTIVE / EXPERIMENT | 2025-08-22 | Very strong long-term potential. First clean the add-on structure, MVP scope, and repository hygiene. |
 
+## Private or intentionally limited repositories
+
+This section is for repositories that are private, temporarily private, or intentionally kept with limited public exposure.
+
+Links may work only for me or for people with repository access. This is intentional. The goal is to keep a lightweight index of important repositories without exposing unnecessary details to the public.
+
+| Repository | Short description | Status | Last visible update | Notes / next step |
+|---|---|---|---|---|
+| _None listed yet_ | Repositories will be moved here after cleanup and visibility review. | — | — | Example future candidate: `FixaDataAutoboxar`, after hygiene cleanup and possible move to private. |
+
+### Rule for moving repositories here
+
+Move a repository to this section when:
+
+- it is useful to keep in the wayfinder,
+- it should no longer be promoted as a public project,
+- it contains or relates to sensitive, semi-internal, biological, recording-derived, or operational workflows,
+- the public repository would expose more context than needed,
+- or the repository is kept public only temporarily during cleanup.
+
+When a repository is moved here, remove it from the main public table unless it still needs to be visible as a public showcase or public tool.
+
 ## Repositories — milestone reached
 
 These repositories have reached a useful public milestone. They are not abandoned. They are kept in `MAINTAINED / PAUSED` mode: usable, documented, released, and only expected to receive fixes or small improvements if needed.
