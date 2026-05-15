@@ -17,6 +17,7 @@ Pole „ostatnia widoczna aktualizacja” oznacza datę `Updated` widoczną na p
 | TEMP PUBLIC | Publiczne tymczasowo, głównie do wspólnej pracy i porządkowania |
 | PRIVATE? | Warto rozważyć powrót do repo prywatnego albo ograniczenie opisu publicznego |
 | ARCHIVED | Zachowane jako ślad, bez planowanego rozwoju |
+| PAUSED | Kamień milowy osiągnięty; brak aktywnych planów rozwoju. Tylko ewentualne poprawki błędów lub małe aktualizacje. |
 
 ## Repozytoria
 
@@ -25,7 +26,7 @@ Pole „ostatnia widoczna aktualizacja” oznacza datę `Updated` widoczną na p
 | [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) | Liczenie obiektów w nagraniach wideo z użyciem YOLO; strefy, zdarzenia, alerty i eksport wyników. | ACTIVE / EXPERIMENT | 2026-05-13 | Wysoki priorytet sprzątania: backupy, modele AI, outputy, struktura, README, release policy. |
 | [MergeExcelFiles](https://github.com/JakubPelka/MergeExcelFiles) | Łączenie kilku plików Excel z danymi o drzewach / Artportalen w jeden plik. | MAINTAINED / TEMP PUBLIC | 2026-05-13 | Uporządkować README, przykładowe dane i zakres publiczności. |
 | [ROI_raster_histogram_QGIS](https://github.com/JakubPelka/ROI_raster_histogram_QGIS) | Plugin / narzędzie QGIS do statystyk klas rastra w obrębie polygonów ROI. | ACTIVE / MAINTAINED | 2026-05-13 | Dobry kandydat na wzorcowe publiczne repo GIS. Dodać release, screenshoty i sample data. |
-| [Exif_lat_lon](https://github.com/JakubPelka/Exif_lat_lon) | Odczyt współrzędnych GPS z metadanych zdjęć i eksport do CSV oraz GeoJSON. | MAINTAINED | 2026-05-13 | Małe użyteczne narzędzie. Wystarczy prosty README, requirements i przykład użycia. |
+| [Exif_lat_lon](https://github.com/JakubPelka/Exif_lat_lon) | Odczyt współrzędnych GPS z metadanych zdjęć i eksport do CSV oraz GeoJSON. | MAINTAINED / PAUSED | 2026-05-15 | Release `v0.1.0` opublikowany. Repo uporządkowane i przetestowane. Brak aktywnych planów dalszego rozwoju; wracać tylko przy błędach, nowych formatach wejściowych albo potrzebie pakietowania. |
 | [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) | Uzupełnianie danych z Artportalen / AGOL o informacje o statusie ochrony i dodatkowe kolumny. | TEMP PUBLIC / PRIVATE? | 2026-05-13 | Temat wrażliwy. Dokumentacja ostrożna, bez realnych danych, tokenów, endpointów i nadmiarowego kontekstu. |
 | [hajk-gesture-demo](https://github.com/JakubPelka/hajk-gesture-demo) | Demo sterowania mapą Hajk / OpenLayers gestami dłoni z użyciem MediaPipe i OpenCV. | EXPERIMENT / SHOWCASE | 2026-05-08 | Dobre repo pokazowe. Dodać GIF/video, listę gestów, architekturę i known limitations. |
 | [Sculptor_QGIS](https://github.com/JakubPelka/Sculptor_QGIS) | Eksperyment z modelowaniem / rzeźbieniem terenu w QGIS podobnie jak sculpting w Blenderze. | EXPERIMENT | 2026-05-07 | Uporządkować wersje MVP, zipy i strukturę pluginu. Jasno oznaczyć jako eksperyment. |
