@@ -15,6 +15,7 @@ The column `Last visible update` refers to the public `Updated` date visible on 
 | ACTIVE | Actively developed or planned for further development. |
 | MAINTAINED | Works and may receive fixes, but no major rebuild is planned. |
 | PAUSED | A useful milestone has been reached. No active development is planned, except possible bug fixes or small updates. |
+| IDEA | Concept repository. The idea is documented, but implementation is not currently started or prioritized. |
 | EXPERIMENT | Prototype, proof of concept, development test, or idea under exploration. |
 | SHOWCASE | Demo or portfolio-style repository intended to show an idea or capability. |
 | TEMP PUBLIC | Public temporarily, mainly for joint cleanup, review, or development. |
@@ -34,6 +35,7 @@ The column `Last visible update` refers to the public `Updated` date visible on 
 | [Excel2Word_with_presets](https://github.com/JakubPelka/Excel2Word_with_presets) | Exporting rows from Excel tables into Word documents using presets. | MAINTAINED | 2025-09-25 | Practical tool. Clean README and examples; avoid private data in samples. |
 | [LaczTabeleNietoperzy](https://github.com/JakubPelka/LaczTabeleNietoperzy) | Combining tables from Autoboxes and generating summary and daily charts. | TEMP PUBLIC / PRIVATE? | 2025-09-24 | Sensitive topic. Keep a neutral description and avoid location data, real recordings, or unnecessary biological detail. |
 | [Drone2Place](https://github.com/JakubPelka/Drone2Place) | Early idea for identifying places from drone photos and locating them on a map. | EXPERIMENT | 2025-09-22 | Add a short README with purpose, limitations, and possible direction. |
+| [Osm-field-tagger-AI](https://github.com/JakubPelka/Osm-field-tagger-AI) | Idea for a mobile, human-verified OpenStreetMap field survey assistant: geolocation, photo, local AI tag suggestions, user verification, and OSM-ready tags. | IDEA / EXPERIMENT | 2026-05-16 | Idea only for now. Prepare later after higher-priority repository cleanup. Keep the first PoC small: local/on-device first, no automatic uploads, human verification required. |
 | [FusionCover](https://github.com/JakubPelka/FusionCover) | Scripts for calculating terrain or vegetation cover from LAS files using FUSION. | EXPERIMENT / PRIVATE? | 2025-08-29 | Verify public suitability. Clean input/output description and check whether the repository should remain public. |
 | [FixaDataAutoboxar](https://github.com/JakubPelka/FixaDataAutoboxar) | Automatic extraction of metadata from WAV files and export to a readable Excel sheet. | MAINTAINED / TEMP PUBLIC | 2025-08-29 | Practical tool, but related to recording-derived data. Be careful with examples and public wording. |
 | [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) | Blender Digital Twin add-on / concept: reconstructing and visualising scenes from GIS data. | ACTIVE / EXPERIMENT | 2025-08-22 | Very strong long-term potential. First clean the add-on structure, MVP scope, and repository hygiene. |
@@ -115,6 +117,7 @@ When a repository is moved here, remove it from the main public table unless it 
 3. [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) — high practical value, but public wording must stay cautious.
 4. [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — major potential after cleanup.
 5. [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) — largest long-term potential, but requires strict architecture discipline.
+6. [Osm-field-tagger-AI](https://github.com/JakubPelka/Osm-field-tagger-AI) — promising AI + OSM mobile idea; prepare after current cleanup backlog.
 
 ## Milestones already reached
 
