@@ -4,7 +4,7 @@ A compact guide to my public GitHub repositories.
 
 This repository is not a portfolio page in the strict sense. It is a practical navigation map: what each repository is for, what its current status is, and what should be cleaned, maintained, developed, paused, or treated carefully.
 
-Last reviewed: 2026-05-15.
+Last reviewed: 2026-05-18.
 
 The column `Last visible update` refers to the public `Updated` date visible on GitHub or to the latest significant manual repository work noted during cleanup. It is not a full commit history audit.
 
@@ -36,7 +36,6 @@ The column `Last visible update` refers to the public `Updated` date visible on 
 | [LaczTabeleNietoperzy](https://github.com/JakubPelka/LaczTabeleNietoperzy) | Combining tables from Autoboxes and generating summary and daily charts. | TEMP PUBLIC / PRIVATE? | 2025-09-24 | Sensitive topic. Keep a neutral description and avoid location data, real recordings, or unnecessary biological detail. |
 | [Drone2Place](https://github.com/JakubPelka/Drone2Place) | Early idea for identifying places from drone photos and locating them on a map. | EXPERIMENT | 2025-09-22 | Add a short README with purpose, limitations, and possible direction. |
 | [Osm-field-tagger-AI](https://github.com/JakubPelka/Osm-field-tagger-AI) | Idea for a mobile, human-verified OpenStreetMap field survey assistant: geolocation, photo, local AI tag suggestions, user verification, and OSM-ready tags. | IDEA / EXPERIMENT | 2026-05-16 | Idea only for now. Prepare later after higher-priority repository cleanup. Keep the first PoC small: local/on-device first, no automatic uploads, human verification required. |
-| [skyddstrad-field-reporter](https://github.com/JakubPelka/skyddstrad-field-reporter) | Idea for a mobile-first field tool / PWA for recording potential särskilt skyddsvärda träd, checking nearby existing records, storing local drafts, and exporting structured data for later Artportalen import. | IDEA / EXPERIMENT | 2026-05-16 | Idea / proof of concept planned. Prepare later after higher-priority repository cleanup. Keep public wording careful: not an official Artportalen/SLU tool, no direct upload in MVP, verify data sources, import templates, API terms, licenses, and privacy requirements before implementation. |
 | [FusionCover](https://github.com/JakubPelka/FusionCover) | Scripts for calculating terrain or vegetation cover from LAS files using FUSION. | EXPERIMENT / PRIVATE? | 2025-08-29 | Verify public suitability. Clean input/output description and check whether the repository should remain public. |
 | [FixaDataAutoboxar](https://github.com/JakubPelka/FixaDataAutoboxar) | Automatic extraction of metadata from WAV files and export to a readable Excel sheet. | MAINTAINED / TEMP PUBLIC | 2025-08-29 | Practical tool, but related to recording-derived data. Be careful with examples and public wording. |
 | [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) | Blender Digital Twin add-on / concept: reconstructing and visualising scenes from GIS data. | ACTIVE / EXPERIMENT | 2025-08-22 | Very strong long-term potential. First clean the add-on structure, MVP scope, and repository hygiene. |
@@ -56,6 +55,13 @@ These repositories have reached a useful public milestone. They are not abandone
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td bgcolor="#edf7ed"><a href="https://github.com/JakubPelka/skyddstrad-field-reporter">skyddstrad-field-reporter</a></td>
+      <td bgcolor="#edf7ed">Mobile-first PWA / field helper for recording potential särskilt skyddsvärda träd, checking existing public tree records, saving local browser drafts, and exporting XLSX/GeoJSON for later review/import into Artportalen.</td>
+      <td bgcolor="#edf7ed"><strong>MAINTAINED / PAUSED</strong></td>
+      <td bgcolor="#edf7ed">2026-05-18</td>
+      <td bgcolor="#edf7ed">Release <code>v0.1.0 – Proof of Concept</code> published and GitHub Pages app available. Current README status: Early proof of concept. No active development planned right now; return for Artportalen import testing, improved Lokalnamn handling, optional aerial imagery/orthophoto background, desktop layout, or clearer QA/export summary.</td>
+    </tr>
     <tr>
       <td bgcolor="#edf7ed"><a href="https://github.com/JakubPelka/MergeExcelFiles">MergeExcelFiles</a></td>
       <td bgcolor="#edf7ed">Small Tkinter/Python tool for merging multiple Excel files with the same structure into one combined workbook, with optional CSV export. Originally used for tree-related Artportalen-style Excel data, but potentially reusable for other similarly structured Excel files.</td>
@@ -119,13 +125,13 @@ When a repository is moved here, remove it from the main public table unless it 
 4. [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — major potential after cleanup.
 5. [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) — largest long-term potential, but requires strict architecture discipline.
 6. [Osm-field-tagger-AI](https://github.com/JakubPelka/Osm-field-tagger-AI) — promising AI + OSM mobile idea; prepare after current cleanup backlog.
-7. [skyddstrad-field-reporter](https://github.com/JakubPelka/skyddstrad-field-reporter) — promising field-reporting PWA idea for valuable trees; prepare after cleanup and after verifying official data/import
 
 ## Milestones already reached
 
 - [ROI_raster_histogram_QGIS](https://github.com/JakubPelka/ROI_raster_histogram_QGIS) — first public release completed: `v0.1.0`.
 - [Exif_lat_lon](https://github.com/JakubPelka/Exif_lat_lon) — first public release completed: `v0.1.0`.
 - [MergeExcelFiles](https://github.com/JakubPelka/MergeExcelFiles) — first cleaned release completed: `v0.1.0`.
+- [skyddstrad-field-reporter](https://github.com/JakubPelka/skyddstrad-field-reporter) — first proof-of-concept release completed: `v0.1.0`.
 
 ## Repository work rules
 
