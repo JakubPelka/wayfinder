@@ -13,6 +13,7 @@ The column `Last visible update` refers to the public `Updated` date visible on 
 | Status | Meaning |
 |---|---|
 | ACTIVE | Actively developed or planned for further development. |
+| TESTING | Usable development version under practical testing; feedback should become issues or small follow-up commits. |
 | MAINTAINED | Works and may receive fixes, but no major rebuild is planned. |
 | PAUSED | A useful milestone has been reached. No active development is planned, except possible bug fixes or small updates. |
 | IDEA | Concept repository. The idea is documented, but implementation is not currently started or prioritized. |
@@ -26,7 +27,7 @@ The column `Last visible update` refers to the public `Updated` date visible on 
 
 | Repository | Short description | Status | Last visible update | Notes / next step |
 |---|---|---|---|---|
-| [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) | Object counting in video recordings using YOLO; zones, events, alerts, snapshots, heatmaps, and result export. | ACTIVE / EXPERIMENT | 2026-05-13 | High cleanup priority: backups, AI models, generated outputs, repository structure, README, and release policy. |
+| [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) | Desktop video-analysis application for counting detected objects in recordings or streams using YOLO, with counters, zones, line crossings, alerts, snapshots, heatmaps, HUD overlays, zone dwell time, class peak statistics, and structured CSV outputs. | ACTIVE / TESTING | 2026-05-18 | Latest release: `v0.1.2 – Zone dwell time and class peak statistics`. Repository cleanup and code organization baseline completed. The application is ready for practical testing, but development continues. Next work should be issue-based: test runs, bug fixes, UX polish, output validation, release packaging, and later tracking/segmentation/heatmap improvements. |
 | [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) | Enriching Artportalen / AGOL-derived records with protection-status information and additional columns. | TEMP PUBLIC / PRIVATE? | 2026-05-13 | Sensitive topic. Keep documentation careful: no real data, no tokens, no endpoints, no unnecessary operational context. |
 | [hajk-gesture-demo](https://github.com/JakubPelka/hajk-gesture-demo) | Demo for controlling a Hajk / OpenLayers map with hand gestures using MediaPipe and OpenCV. | EXPERIMENT / SHOWCASE | 2026-05-08 | Good showcase candidate. Add GIF/video, gesture list, architecture notes, and known limitations. |
 | [Sculptor_QGIS](https://github.com/JakubPelka/Sculptor_QGIS) | Experiment with terrain modelling / sculpting in QGIS, inspired by Blender-style sculpting workflows. | EXPERIMENT | 2026-05-07 | Clean up MVP versions, ZIPs, plugin structure, and clearly label it as experimental. |
@@ -110,7 +111,7 @@ When a repository is moved here, remove it from the main public table unless it 
 
 ## Cleanup priority
 
-1. [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — security, models, backups, generated outputs, and release policy.
+1. [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — cleanup baseline and release `v0.1.2` completed; now test the application, validate outputs, record bugs as issues, and continue development in small commits.
 2. [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) — add-on structure, working folders, builds, and MVP scope.
 3. [Sculptor_QGIS](https://github.com/JakubPelka/Sculptor_QGIS) — MVP versions, ZIPs, and plugin structure.
 4. [ComputerVisionCounter_Images](https://github.com/JakubPelka/ComputerVisionCounter_Images) — product structure, models outside repo, output handling, and user README.
@@ -122,12 +123,13 @@ When a repository is moved here, remove it from the main public table unless it 
 1. [ComputerVisionCounter_Images](https://github.com/JakubPelka/ComputerVisionCounter_Images) — strong product and portfolio potential.
 2. [hajk-gesture-demo](https://github.com/JakubPelka/hajk-gesture-demo) — effective AI + GIS showcase.
 3. [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) — high practical value, but public wording must stay cautious.
-4. [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — major potential after cleanup.
+4. [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — major potential; current baseline is `v0.1.2`, now continue through practical testing, bug fixes, UX polish, output validation, and future tracking/segmentation experiments.
 5. [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) — largest long-term potential, but requires strict architecture discipline.
 6. [Osm-field-tagger-AI](https://github.com/JakubPelka/Osm-field-tagger-AI) — promising AI + OSM mobile idea; prepare after current cleanup backlog.
 
 ## Milestones already reached
 
+- [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — active development baseline reached with latest release `v0.1.2`; project remains in `ACTIVE / TESTING`.
 - [ROI_raster_histogram_QGIS](https://github.com/JakubPelka/ROI_raster_histogram_QGIS) — first public release completed: `v0.1.0`.
 - [Exif_lat_lon](https://github.com/JakubPelka/Exif_lat_lon) — first public release completed: `v0.1.0`.
 - [MergeExcelFiles](https://github.com/JakubPelka/MergeExcelFiles) — first cleaned release completed: `v0.1.0`.
