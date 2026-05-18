@@ -111,12 +111,15 @@ When a repository is moved here, remove it from the main public table unless it 
 
 ## Cleanup priority
 
-1. [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — cleanup baseline and release `v0.1.2` completed; now test the application, validate outputs, record bugs as issues, and continue development in small commits.
-2. [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) — add-on structure, working folders, builds, and MVP scope.
-3. [Sculptor_QGIS](https://github.com/JakubPelka/Sculptor_QGIS) — MVP versions, ZIPs, and plugin structure.
-4. [ComputerVisionCounter_Images](https://github.com/JakubPelka/ComputerVisionCounter_Images) — product structure, models outside repo, output handling, and user README.
-5. [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) — cautious documentation, safe test data, and clear dev/prod split.
-6. [LaczTabeleNietoperzy](https://github.com/JakubPelka/LaczTabeleNietoperzy) / [FixaDataAutoboxar](https://github.com/JakubPelka/FixaDataAutoboxar) — privacy, neutral README wording, and no sensitive data.
+1. [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) — add-on structure, working folders, builds, and MVP scope.
+2. [Sculptor_QGIS](https://github.com/JakubPelka/Sculptor_QGIS) — MVP versions, ZIPs, and plugin structure.
+3. [ComputerVisionCounter_Images](https://github.com/JakubPelka/ComputerVisionCounter_Images) — product structure, models outside repo, output handling, and user README.
+4. [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) — cautious documentation, safe test data, and clear dev/prod split.
+5. [LaczTabeleNietoperzy](https://github.com/JakubPelka/LaczTabeleNietoperzy) / [FixaDataAutoboxar](https://github.com/JakubPelka/FixaDataAutoboxar) — privacy, neutral README wording, and no sensitive data.
+
+## Post-cleanup testing / follow-up
+
+- [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — cleanup baseline and release `v0.1.2` completed. It is no longer a top cleanup priority. Current focus: practical testing, output validation, bug reports as issues, small fixes, UX polish, and further feature development.
 
 ## Development priority
 
