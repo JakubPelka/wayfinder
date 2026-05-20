@@ -16,6 +16,7 @@ The column `Last visible update` refers to the public `Updated` date visible on 
 | TESTING | Usable development version under practical testing; feedback should become issues or small follow-up commits. |
 | MAINTAINED | Works and may receive fixes, but no major rebuild is planned. |
 | PAUSED | A useful milestone has been reached. No active development is planned, except possible bug fixes or small updates. |
+| HOWTO | Instruction/manual repository. The main value is documentation, workflow explanation, or reproducible steps rather than application code. |
 | IDEA | Concept repository. The idea is documented, but implementation is not currently started or prioritized. |
 | EXPERIMENT | Prototype, proof of concept, development test, or idea under exploration. |
 | SHOWCASE | Demo or portfolio-style repository intended to show an idea or capability. |
@@ -40,6 +41,14 @@ The column `Last visible update` refers to the public `Updated` date visible on 
 | [FusionCover](https://github.com/JakubPelka/FusionCover) | Scripts for calculating terrain or vegetation cover from LAS files using FUSION. | EXPERIMENT / PRIVATE? | 2025-08-29 | Verify public suitability. Clean input/output description and check whether the repository should remain public. |
 | [FixaDataAutoboxar](https://github.com/JakubPelka/FixaDataAutoboxar) | Automatic extraction of metadata from WAV files and export to a readable Excel sheet. | MAINTAINED / TEMP PUBLIC | 2025-08-29 | Practical tool, but related to recording-derived data. Be careful with examples and public wording. |
 | [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) | Blender Digital Twin add-on / concept: reconstructing and visualising scenes from GIS data. | ACTIVE / EXPERIMENT | 2025-08-22 | Very strong long-term potential. First clean the add-on structure, MVP scope, and repository hygiene. |
+
+## Documentation / HOWTO repositories
+
+These repositories are mainly manuals, guides, notes, or reproducible workflows. They may contain helper scripts, but the primary value is the documentation rather than a maintained application.
+
+| Repository | Short description | Status | Last visible update | Notes / next step |
+|---|---|---|---|---|
+| [jak-wytresowac-model-pt](https://github.com/JakubPelka/jak-wytresowac-model-pt) | Polish HOWTO for training a custom YOLO `.pt` model from a Roboflow dataset, with Linux and Windows paths, PyTorch/CUDA setup, dataset preparation, safety notes, smoke tests, training commands, and helper scripts. | HOWTO / MAINTAINED | 2026-05-18 | Manual-style repository, not an application project. No release needed unless the guide becomes stable enough to tag as `v0.1.0`. Keep datasets, Roboflow API links, trained `.pt` files, `runs/`, temporary ZIPs, and private data outside the repository. |
 
 ## Repositories — milestone reached
 
