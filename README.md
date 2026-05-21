@@ -2,9 +2,9 @@
 
 A compact guide to my public GitHub repositories.
 
-This repository is not a portfolio page in the strict sense. It is a practical navigation map: what each repository is for, what its current status is, and what should be cleaned, maintained, developed, paused, or treated carefully.
+This repository is not a portfolio page in the strict sense. It is a practical navigation map: what each repository is for, what its current status is, and what should be cleaned, maintained, developed, tested, paused, or treated carefully.
 
-Last reviewed: 2026-05-18.
+Last reviewed: 2026-05-21.
 
 The column `Last visible update` refers to the public `Updated` date visible on GitHub or to the latest significant manual repository work noted during cleanup. It is not a full commit history audit.
 
@@ -18,6 +18,7 @@ The column `Last visible update` refers to the public `Updated` date visible on 
 | PAUSED | A useful milestone has been reached. No active development is planned, except possible bug fixes or small updates. |
 | HOWTO | Instruction/manual repository. The main value is documentation, workflow explanation, or reproducible steps rather than application code. |
 | IDEA | Concept repository. The idea is documented, but implementation is not currently started or prioritized. |
+| IDEA BANK | Repository used as a parking place for ideas, concepts, future directions, and topics waiting for validation. Not every idea is expected to become a project. |
 | EXPERIMENT | Prototype, proof of concept, development test, or idea under exploration. |
 | SHOWCASE | Demo or portfolio-style repository intended to show an idea or capability. |
 | TEMP PUBLIC | Public temporarily, mainly for joint cleanup, review, or development. |
@@ -29,18 +30,26 @@ The column `Last visible update` refers to the public `Updated` date visible on 
 | Repository | Short description | Status | Last visible update | Notes / next step |
 |---|---|---|---|---|
 | [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) | Desktop video-analysis application for counting detected objects in recordings or streams using YOLO, with counters, zones, line crossings, alerts, snapshots, heatmaps, HUD overlays, zone dwell time, class peak statistics, and structured CSV outputs. | ACTIVE / TESTING | 2026-05-18 | Latest release: `v0.1.2 – Zone dwell time and class peak statistics`. Repository cleanup and code organization baseline completed. The application is ready for practical testing, but development continues. Next work should be issue-based: test runs, bug fixes, UX polish, output validation, release packaging, and later tracking/segmentation/heatmap improvements. |
-| [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) | Enriching Artportalen / AGOL-derived records with protection-status information and additional columns. | TEMP PUBLIC / PRIVATE? | 2026-05-13 | Sensitive topic. Keep documentation careful: no real data, no tokens, no endpoints, no unnecessary operational context. |
-| [hajk-gesture-demo](https://github.com/JakubPelka/hajk-gesture-demo) | Demo for controlling a Hajk / OpenLayers map with hand gestures using MediaPipe and OpenCV. | EXPERIMENT / SHOWCASE | 2026-05-08 | Good showcase candidate. Add GIF/video, gesture list, architecture notes, and known limitations. |
+| [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) | Blender Digital Twin add-on / concept: reconstructing and visualising scenes from GIS data. | ACTIVE / EXPERIMENT | 2025-08-22 | Very strong long-term potential. First clean the add-on structure, MVP scope, and repository hygiene. |
 | [Sculptor_QGIS](https://github.com/JakubPelka/Sculptor_QGIS) | Experiment with terrain modelling / sculpting in QGIS, inspired by Blender-style sculpting workflows. | EXPERIMENT | 2026-05-07 | Clean up MVP versions, ZIPs, plugin structure, and clearly label it as experimental. |
 | [ComputerVisionCounter_Images](https://github.com/JakubPelka/ComputerVisionCounter_Images) | Object counting in images using YOLO models; image-based version with a cleaner code structure. | ACTIVE / MAINTAINED | 2025-10-14 | Strong product and portfolio potential. Keep models outside the repository, ignore outputs, and improve end-user README. |
-| [MobileComputerVisionCounter](https://github.com/JakubPelka/MobileComputerVisionCounter) | Idea / prototype for a mobile object-counting application using YOLO and iPhone. | EXPERIMENT | 2025-10-04 | Keep as proof of concept. Add clear scope, status, and decision whether it should be developed further. |
+| [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) | Enriching Artportalen / AGOL-derived records with protection-status information and additional columns. | TEMP PUBLIC / PRIVATE? | 2026-05-13 | Sensitive topic. Keep documentation careful: no real data, no tokens, no endpoints, no unnecessary operational context. |
+| [hajk-gesture-demo](https://github.com/JakubPelka/hajk-gesture-demo) | Demo for controlling a Hajk / OpenLayers map with hand gestures using MediaPipe and OpenCV. | EXPERIMENT / SHOWCASE | 2026-05-08 | Good showcase candidate. Add GIF/video, gesture list, architecture notes, and known limitations. |
 | [Excel2Word_with_presets](https://github.com/JakubPelka/Excel2Word_with_presets) | Tkinter/Python tool for converting Excel rows into Word micro-tables using JSON presets, editable field mapping, layouts, photo/map placeholders, sorting, styling, margins, and image handling. | MAINTAINED / TESTING | 2026-05-16 | Repository has been significantly cleaned and organized after recent work. No release yet. Current focus: practical testing before first release, checking presets, GUI behaviour, DOCX output, photo handling, sample-data safety, and whether the Polish README should later be translated or left as-is. |
+| [MobileComputerVisionCounter](https://github.com/JakubPelka/MobileComputerVisionCounter) | Idea / prototype for a mobile object-counting application using YOLO and iPhone. | EXPERIMENT | 2025-10-04 | Keep as proof of concept. Add clear scope, status, and decision whether it should be developed further. |
 | [LaczTabeleNietoperzy](https://github.com/JakubPelka/LaczTabeleNietoperzy) | Combining tables from Autoboxes and generating summary and daily charts. | TEMP PUBLIC / PRIVATE? | 2025-09-24 | Sensitive topic. Keep a neutral description and avoid location data, real recordings, or unnecessary biological detail. |
 | [Drone2Place](https://github.com/JakubPelka/Drone2Place) | Early idea for identifying places from drone photos and locating them on a map. | EXPERIMENT | 2025-09-22 | Add a short README with purpose, limitations, and possible direction. |
-| [Osm-field-tagger-AI](https://github.com/JakubPelka/Osm-field-tagger-AI) | Idea for a mobile, human-verified OpenStreetMap field survey assistant: geolocation, photo, local AI tag suggestions, user verification, and OSM-ready tags. | IDEA / EXPERIMENT | 2026-05-16 | Idea only for now. Prepare later after higher-priority repository cleanup. Keep the first PoC small: local/on-device first, no automatic uploads, human verification required. |
 | [FusionCover](https://github.com/JakubPelka/FusionCover) | Scripts for calculating terrain or vegetation cover from LAS files using FUSION. | EXPERIMENT / PRIVATE? | 2025-08-29 | Verify public suitability. Clean input/output description and check whether the repository should remain public. |
-| [FixaDataAutoboxar](https://github.com/JakubPelka/FixaDataAutoboxar) | Automatic extraction of metadata from WAV files and export to a readable Excel sheet. | MAINTAINED / TEMP PUBLIC | 2025-08-29 | Practical tool, but related to recording-derived data. Be careful with examples and public wording. |
-| [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) | Blender Digital Twin add-on / concept: reconstructing and visualising scenes from GIS data. | ACTIVE / EXPERIMENT | 2025-08-22 | Very strong long-term potential. First clean the add-on structure, MVP scope, and repository hygiene. |
+| [FixaDataAutoboxar](https://github.com/JakubPelka/FixaDataAutoboxar) | Automatic extraction of metadata from WAV files and export to a readable Excel sheet. | MAINTAINED / TEMP PUBLIC | 2025-08-29 | Practical tool, but related to recording-derived data. Be careful with examples and public wording. Candidate for private visibility after cleanup. |
+| [Osm-field-tagger-AI](https://github.com/JakubPelka/Osm-field-tagger-AI) | Idea for a mobile, human-verified OpenStreetMap field survey assistant: geolocation, photo, local AI tag suggestions, user verification, and OSM-ready tags. | IDEA / EXPERIMENT | 2026-05-16 | Idea only for now. Prepare later after higher-priority repository cleanup. Keep the first PoC small: local/on-device first, no automatic uploads, human verification required. |
+
+## Idea bank / concept repositories
+
+These repositories collect ideas, early concepts, future directions, and topics waiting for validation. They are not implementation commitments. Some ideas may later become separate repositories, issues, prototypes, or roadmap items; others may stay as notes only.
+
+| Repository | Short description | Status | Last visible update | Notes / next step |
+|---|---|---|---|---|
+| [ideas](https://github.com/JakubPelka/ideas) | Bank of ideas and future concepts: promising, experimental, unfinished, or speculative thoughts waiting for discussion, validation, prioritisation, or later prototyping. | IDEA BANK / MAINTAINED | 2026-05-21 | Use as a lightweight parking place for ideas from discussions and personal notes. Keep entries short, clearly labelled, and separate from active project documentation. Do not treat listed ideas as committed roadmap items unless they are later moved into a specific project repository or issue. |
 
 ## Documentation / HOWTO repositories
 
