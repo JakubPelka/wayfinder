@@ -32,7 +32,7 @@ Current scan: 22 repositories visible through the connected GitHub account.
 
 | Repository | Short description | Status | Last visible update | Notes / next step |
 |---|---|---|---|---|
-| [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) | Desktop video-analysis application for counting detected objects in recordings or streams using YOLO, with counters, zones, line crossings, alerts, snapshots, heatmaps, HUD overlays, zone dwell time, class peak statistics, and structured CSV outputs. | ACTIVE / TESTING | 2026-05-18 | Latest release: `v0.1.2 – Zone dwell time and class peak statistics`. Repository cleanup and code organization baseline completed. The application is ready for practical testing, but development continues. Next work should be issue-based: test runs, bug fixes, UX polish, output validation, release packaging, and later tracking/segmentation/heatmap improvements. |
+| [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) | Desktop video-analysis application for counting detected objects in recordings or streams using YOLO, with counters, zones, line crossings, alerts, snapshots, heatmaps, HUD overlays, zone dwell time, class peak statistics, annotated video export, incremental event writing, and structured CSV outputs. | ACTIVE / TESTING | 2026-06-14 | Latest release baseline: `v0.1.2 – Zone dwell time and class peak statistics`. Additional post-release commits were added in June 2026, including annotated-video saving changes and incremental event writing. The application is ready for practical testing, but development continues. Next work should be issue-based: test runs, bug fixes, UX polish, output validation, and later tracking/segmentation/heatmap improvements. |
 | [CVC_Bats_Thermal_detection](https://github.com/JakubPelka/CVC_Bats_Thermal_detection) | Experimental thermal-video bat detection and tracking repository; possible future ComputerVisionCounter module or integration for counting bat crossings in stationary thermal recordings. | EXPERIMENT / TEMP PUBLIC / PRIVATE? | 2026-06-04 | New and sensitive experimental repository. High hygiene priority: add README, clarify MVP scope, check repository size, avoid real recordings/location data, ignore outputs/models/videos, and decide whether it should stay public. |
 | [GTB_connectivity](https://github.com/JakubPelka/GTB_connectivity) | QGIS/GuidosToolbox workflow for landscape connectivity analysis based on GTB Proximity outputs, with an experimental QGIS Processing plugin under `DEV/qgis_plugin/`. | ACTIVE / EXPERIMENT / TESTING | 2026-05-24 | Current focus is validating the QGIS Processing plugin workflow. Keep GTB/GWB execution outside scope for now; clean plugin structure, docs, sample-data policy, and output handling before any public release. |
 | [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) | Blender Digital Twin add-on / concept: reconstructing and visualising scenes from GIS data. | ACTIVE / EXPERIMENT | 2025-08-22 | Very strong long-term potential. First clean the add-on structure, MVP scope, and repository hygiene. |
@@ -152,14 +152,14 @@ When a repository is moved here, remove it from the main public table unless it 
 
 ## Post-cleanup testing / follow-up
 
-- [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — cleanup baseline and release `v0.1.2` completed. It is no longer a top cleanup priority. Current focus: practical testing, output validation, bug reports as issues, small fixes, UX polish, and further feature development.
+- [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — cleanup baseline and release `v0.1.2` completed, with additional June 2026 commits after the release baseline. It is no longer a top cleanup priority. Current focus: practical testing, output validation, bug reports as issues, small fixes, UX polish, and further feature development.
 - [Excel2Word_with_presets](https://github.com/JakubPelka/Excel2Word_with_presets) — repository has been significantly cleaned, but no release has been published yet. Current focus: practical testing, preset validation, DOCX output checks, photo/map placeholder behaviour, and preparing a possible first release after successful tests.
 - [GTB_connectivity](https://github.com/JakubPelka/GTB_connectivity) — plugin workflow exists and is under validation. Current focus: compare outputs with reference scripts, test on more GTB Proximity datasets, and decide when it is clean enough for a release-style package.
 
 ## Development priority
 
 1. [ComputerVisionCounter_Images](https://github.com/JakubPelka/ComputerVisionCounter_Images) — strong product and portfolio potential.
-2. [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — major potential; current baseline is `v0.1.2`, now continue through practical testing, bug fixes, UX polish, output validation, and future tracking/segmentation experiments.
+2. [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — major potential; current release baseline is `v0.1.2`, with newer June 2026 commits already added. Continue through practical testing, bug fixes, UX polish, output validation, and future tracking/segmentation experiments.
 3. [GTB_connectivity](https://github.com/JakubPelka/GTB_connectivity) — promising QGIS/GTB post-processing plugin idea; continue validation before refactoring into a cleaner public plugin package.
 4. [hajk-gesture-demo](https://github.com/JakubPelka/hajk-gesture-demo) — effective AI + GIS showcase.
 5. [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) — high practical value, but public wording must stay cautious.
@@ -169,7 +169,7 @@ When a repository is moved here, remove it from the main public table unless it 
 
 ## Milestones already reached
 
-- [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — active development baseline reached with latest release `v0.1.2`; project remains in `ACTIVE / TESTING`.
+- [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — active development baseline reached with release `v0.1.2`; newer June 2026 commits continue the testing/development track, so the project remains in `ACTIVE / TESTING`.
 - [ROI_raster_histogram_QGIS](https://github.com/JakubPelka/ROI_raster_histogram_QGIS) — first public release completed: `v0.1.0`.
 - [Exif_lat_lon](https://github.com/JakubPelka/Exif_lat_lon) — first public release completed: `v0.1.0`.
 - [MergeExcelFiles](https://github.com/JakubPelka/MergeExcelFiles) — first cleaned release completed: `v0.1.0`.
