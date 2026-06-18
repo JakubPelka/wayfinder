@@ -4,11 +4,7 @@ A compact guide to my public GitHub repositories.
 
 This repository is not a portfolio page in the strict sense. It is a practical navigation map: what each repository is for, what its current status is, and what should be cleaned, maintained, developed, tested, paused, or treated carefully.
 
-<<<<<<< Updated upstream
-Last reviewed: 2026-06-17.
-=======
 Last reviewed: 2026-06-18.
->>>>>>> Stashed changes
 
 The column `Last visible update` refers to the public `Updated` date visible on GitHub or to the latest significant manual repository work noted during cleanup. It is not a full commit history audit.
 
@@ -97,8 +93,6 @@ These repositories have reached a useful public milestone. They are not abandone
       <td bgcolor="#edf7ed">First release <code>v0.1.0</code> completed. Repository is usable as a cleaned proof-of-concept baseline. No active development planned right now; return for bug fixes, integration with ComputerVisionCounter, improved tracking/counting logic, or careful handling of real thermal recordings and sample-data policy.</td>
     </tr>
     <tr>
-<<<<<<< Updated upstream
-=======
       <td bgcolor="#edf7ed"><a href="https://github.com/JakubPelka/ComputerVisionCounter_Images">ComputerVisionCounter_Images</a></td>
       <td bgcolor="#edf7ed">Desktop application for counting objects in still images with local YOLO <code>.pt</code> models, class selection, optional AOI filtering, annotated image output, CSV/JSON exports, and GIS-friendly export paths where supported.</td>
       <td bgcolor="#edf7ed"><strong>MAINTAINED / PAUSED</strong></td>
@@ -106,7 +100,6 @@ These repositories have reached a useful public milestone. They are not abandone
       <td bgcolor="#edf7ed">First cleaned release <code>v0.2.0</code> completed. The project works for the current intended scope and is paused for now. Future changes may include bug fixes, packaging polish, stronger documentation, ONNX/segmentation experiments, or later alignment with the video/CVC family.</td>
     </tr>
     <tr>
->>>>>>> Stashed changes
       <td bgcolor="#edf7ed"><a href="https://github.com/JakubPelka/skyddstrad-field-reporter">skyddstrad-field-reporter</a></td>
       <td bgcolor="#edf7ed">Mobile-first PWA / field helper for recording potential särskilt skyddsvärda träd, checking existing public tree records, saving local browser drafts, and exporting XLSX/GeoJSON for later review/import into Artportalen.</td>
       <td bgcolor="#edf7ed"><strong>MAINTAINED / PAUSED</strong></td>
@@ -163,16 +156,9 @@ When a repository is moved here, remove it from the main public table unless it 
 
 1. [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) — add-on structure, working folders, builds, and MVP scope.
 2. [Sculptor_QGIS](https://github.com/JakubPelka/Sculptor_QGIS) — MVP versions, ZIPs, and plugin structure.
-<<<<<<< Updated upstream
-3. [ComputerVisionCounter_Images](https://github.com/JakubPelka/ComputerVisionCounter_Images) — product structure, models outside repo, output handling, and user README.
-4. [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) — cautious documentation, safe test data, and clear dev/prod split.
-5. [LaczTabeleNietoperzy](https://github.com/JakubPelka/LaczTabeleNietoperzy) / [FixaDataAutoboxar](https://github.com/JakubPelka/FixaDataAutoboxar) — privacy, neutral README wording, and no sensitive data.
-6. [GTB_connectivity](https://github.com/JakubPelka/GTB_connectivity) — validate QGIS Processing plugin structure, ignore working GIS data/outputs, document workflow limits, and prepare safe sample-data guidance.
-=======
 3. [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) — cautious documentation, safe test data, and clear dev/prod split.
 4. [LaczTabeleNietoperzy](https://github.com/JakubPelka/LaczTabeleNietoperzy) / [FixaDataAutoboxar](https://github.com/JakubPelka/FixaDataAutoboxar) — privacy, neutral README wording, and no sensitive data.
 5. [GTB_connectivity](https://github.com/JakubPelka/GTB_connectivity) — validate QGIS Processing plugin structure, ignore working GIS data/outputs, document workflow limits, and prepare safe sample-data guidance.
->>>>>>> Stashed changes
 
 ## Post-cleanup testing / follow-up
 
@@ -184,15 +170,6 @@ When a repository is moved here, remove it from the main public table unless it 
 
 ## Development priority
 
-<<<<<<< Updated upstream
-1. [ComputerVisionCounter_Images](https://github.com/JakubPelka/ComputerVisionCounter_Images) — strong product and portfolio potential.
-2. [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — major potential; current release baseline is `v0.1.2`, with newer June 2026 commits already added. Continue through practical testing, bug fixes, UX polish, output validation, and future tracking/segmentation experiments.
-3. [GTB_connectivity](https://github.com/JakubPelka/GTB_connectivity) — promising QGIS/GTB post-processing plugin idea; continue validation before refactoring into a cleaner public plugin package.
-4. [hajk-gesture-demo](https://github.com/JakubPelka/hajk-gesture-demo) — effective AI + GIS showcase.
-5. [Artportalen_med_data](https://github.com/JakubPelka/Artportalen_med_data) — high practical value, but public wording must stay cautious.
-6. [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) — largest long-term potential, but requires strict architecture discipline.
-7. [Osm-field-tagger-AI](https://github.com/JakubPelka/Osm-field-tagger-AI) — promising AI + OSM mobile idea; prepare after current cleanup backlog.
-=======
 1. [ComputerVisionCounter_video](https://github.com/JakubPelka/ComputerVisionCounter_video) — major potential; current release baseline is `v0.1.2`, with newer June 2026 commits already added. Continue through practical testing, bug fixes, UX polish, output validation, and future tracking/segmentation experiments.
 2. [GTB_connectivity](https://github.com/JakubPelka/GTB_connectivity) — promising QGIS/GTB post-processing plugin idea; continue validation before refactoring into a cleaner public plugin package.
 3. [hajk-gesture-demo](https://github.com/JakubPelka/hajk-gesture-demo) — effective AI + GIS showcase.
@@ -200,7 +177,6 @@ When a repository is moved here, remove it from the main public table unless it 
 5. [BlenderDigitalTwin](https://github.com/JakubPelka/BlenderDigitalTwin) — largest long-term potential, but requires strict architecture discipline.
 6. [Osm-field-tagger-AI](https://github.com/JakubPelka/Osm-field-tagger-AI) — promising AI + OSM mobile idea; prepare after current cleanup backlog.
 7. [ComputerVisionCounter_Images](https://github.com/JakubPelka/ComputerVisionCounter_Images) — first cleaned release `v0.2.0` completed; paused for now, but remains a future CVC-family candidate if new image-counting needs appear.
->>>>>>> Stashed changes
 8. [CVC_Bats_Thermal_detection](https://github.com/JakubPelka/CVC_Bats_Thermal_detection) — first PoC release completed; paused for now, but remains a possible future CVC module after testing and integration planning.
 
 ## Milestones already reached
@@ -211,10 +187,7 @@ When a repository is moved here, remove it from the main public table unless it 
 - [MergeExcelFiles](https://github.com/JakubPelka/MergeExcelFiles) — first cleaned release completed: `v0.1.0`.
 - [skyddstrad-field-reporter](https://github.com/JakubPelka/skyddstrad-field-reporter) — first proof-of-concept release completed: `v0.1.0`.
 - [CVC_Bats_Thermal_detection](https://github.com/JakubPelka/CVC_Bats_Thermal_detection) — first proof-of-concept release completed: `v0.1.0`.
-<<<<<<< Updated upstream
-=======
 - [ComputerVisionCounter_Images](https://github.com/JakubPelka/ComputerVisionCounter_Images) — first cleaned release completed: `v0.2.0`.
->>>>>>> Stashed changes
 
 ## Repository work rules
 
