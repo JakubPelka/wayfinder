@@ -8,7 +8,7 @@ Last reviewed: 2026-06-18.
 
 The column `Last visible update` refers to the public `Updated` date visible on GitHub or to the latest significant manual repository work noted during cleanup. It is not a full commit history audit.
 
-Current scan: 22 repositories visible through the connected GitHub account.
+Current scan: 23 repositories visible through the connected GitHub account.
 
 ## Status legend
 
@@ -100,6 +100,13 @@ These repositories have reached a useful public milestone. They are not abandone
       <td bgcolor="#edf7ed">First cleaned release <code>v0.2.0</code> completed. The project works for the current intended scope and is paused for now. Future changes may include bug fixes, packaging polish, stronger documentation, ONNX/segmentation experiments, or later alignment with the video/CVC family.</td>
     </tr>
     <tr>
+      <td bgcolor="#edf7ed"><a href="https://github.com/JakubPelka/Whisper">Whisper</a></td>
+      <td bgcolor="#edf7ed">Local audio transcription toolkit with one launcher and two clean backends: KB-Whisper for Swedish recordings and OpenAI Whisper for Polish, English, auto-detection and other languages.</td>
+      <td bgcolor="#edf7ed"><strong>MAINTAINED / PAUSED</strong></td>
+      <td bgcolor="#edf7ed">2026-06-18</td>
+      <td bgcolor="#edf7ed">Usable local workflow reached. No release needed for now. Keep maintained as a private-workflow helper in public form: source code and setup notes are fine, but audio recordings, generated transcripts, model caches, virtual environments, tokens/secrets and local paths must stay out of Git. Return only for workflow fixes, dependency updates, or better setup notes.</td>
+    </tr>
+    <tr>
       <td bgcolor="#edf7ed"><a href="https://github.com/JakubPelka/skyddstrad-field-reporter">skyddstrad-field-reporter</a></td>
       <td bgcolor="#edf7ed">Mobile-first PWA / field helper for recording potential särskilt skyddsvärda träd, checking existing public tree records, saving local browser drafts, and exporting XLSX/GeoJSON for later review/import into Artportalen.</td>
       <td bgcolor="#edf7ed"><strong>MAINTAINED / PAUSED</strong></td>
@@ -188,6 +195,7 @@ When a repository is moved here, remove it from the main public table unless it 
 - [skyddstrad-field-reporter](https://github.com/JakubPelka/skyddstrad-field-reporter) — first proof-of-concept release completed: `v0.1.0`.
 - [CVC_Bats_Thermal_detection](https://github.com/JakubPelka/CVC_Bats_Thermal_detection) — first proof-of-concept release completed: `v0.1.0`.
 - [ComputerVisionCounter_Images](https://github.com/JakubPelka/ComputerVisionCounter_Images) — first cleaned release completed: `v0.2.0`.
+- [Whisper](https://github.com/JakubPelka/Whisper) — usable local transcription workflow reached; maintained and paused without release for now.
 
 ## Repository work rules
 
