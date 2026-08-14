@@ -76,7 +76,7 @@ Private links work only for accounts with access; this is intentional.
 
 | Repository | Short description | Status | Last update | Notes / next step |
 |---|---|---|---|---|
-| [CVC_Bats_Thermal_detection](https://github.com/JakubPelka/CVC_Bats_Thermal_detection) | Thermal-video blob detection and count filtering for bat monitoring. | MAINTAINED / PAUSED | 2026-07-20 | Release `v.0.2.1` completes the current cycle; resume for concrete fixes or CVC integration. |
+| [CVC_Bats_Thermal_detection](https://github.com/JakubPelka/CVC_Bats_Thermal_detection) | Thermal-video bat detection workflow with batch processing, event-clip extraction, human validation, manual counts/comments, and validated activity graphs. | MAINTAINED / PAUSED | 2026-08-14 | Release `v1.0.0` marks the first stable milestone: detection → event clips → human review → validated results is complete. Resume for concrete bug fixes, usability improvements, detector-metric analysis, or integration needs. |
 | [ComputerVisionCounter_Images](https://github.com/JakubPelka/ComputerVisionCounter_Images) | Still-image object counting with local YOLO models and structured exports. | MAINTAINED / PAUSED | 2026-06-18 | Release `v0.2.0` completed; resume for a concrete bug or packaging need. |
 | [Whisper](https://github.com/JakubPelka/Whisper) | Local transcription workflow for Swedish and multilingual recordings. | MAINTAINED / PAUSED | 2026-07-13 | Usable local workflow and watcher are complete; keep audio and transcripts outside Git. |
 | [skyddstrad-field-reporter](https://github.com/JakubPelka/skyddstrad-field-reporter) | PWA field helper for protected-tree observations and reviewable exports. | MAINTAINED / PAUSED | 2026-05-18 | Proof-of-concept release `v0.1.0` published. |
